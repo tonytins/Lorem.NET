@@ -1,10 +1,8 @@
-Lorem.NET
-===============
+# Lorem.NET
 
 A .NET library for all things random!
 
-Usage
----------------
+## Usage
 
 ### Text Helpers
 
@@ -51,7 +49,7 @@ string[] numbers = GetNumbers();
 string number = LoremNET.Generate.Random(numbers);
 
 // this will randomly select a value from the enum:
-MyEnum value = LoremNET.Generate.Enum<MyEnum>(); 
+MyEnum value = LoremNET.Generate.Enum<MyEnum>();
 
 ```
 
@@ -63,7 +61,7 @@ If you want to change the underlying source text, go right ahead!
 public void SomeStartupMethod()
 {
     LoremNET.Source.Update("Alright stop collaborate and listen ice is back with my brand new invention something grabs a hold of me tightly flow like a harpoon daily and nightly will it ever stop yo I don't know turn off the lights and I'll glow");
-            
+
     ...
 }
 ```
